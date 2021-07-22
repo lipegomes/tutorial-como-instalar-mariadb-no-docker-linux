@@ -194,7 +194,7 @@ em refresh. Conforme imagem abaixo é possível ver que o banco de dados foi cri
 
 **3.4 - Criar tabelas no banco de dados**
 
-- Crie um arquivo chamado connect.py
+- Crie um arquivo chamado create_tables.py
 
 - Digite o código abaixo:
 
@@ -251,7 +251,7 @@ except Error as e:
 - Agora digite os comando abaixo para criar as tabelas no banco de dados:
 
   ``` python
-  python src/connect.py
+  python src/create_tables.py
   ```
 
 - Abra o DBeaver, clique com botão direito do mouse sobre Tables no canto esquerda da tela. Vai abrir um menu, clique
