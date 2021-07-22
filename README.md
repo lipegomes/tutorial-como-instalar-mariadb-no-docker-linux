@@ -96,7 +96,7 @@ https://dbeaver.io/download/
 
 ## **3 - Criar e acessar um banco de dados utilizando python**
 
-**3.1 - Criar ambiente virtual:**
+# **3.1 - Criar ambiente virtual:**
 
 Requisitos:
 
@@ -143,16 +143,16 @@ Requisitos:
 - Se clonar o repositório, crie o ambiente virtual e instale o requirements.txt com o comando abaixo:
 
   ```
-  pip install requeriments.txt
+  pip install requirements.txt
   ```
 
-**3.2 - Instalar o MySQL Connector como dependencia para o python ter acesso ao banco de dados a ser criado:**
+# **3.2 - Instalar o MySQL Connector como dependencia para o python ter acesso ao banco de dados a ser criado:**
 
 ```bash
 pip install mysql-connector-python
 ```
 
-**3.2 - Criar arquivo para acessar o MariaDB e criar banco de dados **
+# **3.3 - Criar arquivo para acessar o MariaDB e criar banco de dados **
 
 - Crie uma pasta src e dentro dela crie um arquivo chamado createdb.py
 
@@ -193,7 +193,7 @@ em refresh. Conforme imagem abaixo é possível ver que o banco de dados foi cri
 
   ![Screenshot_20210721_202520.png](https://github.com/lipegomes/tutorial-como-instalar-mariadb-no-docker-linux/blob/main/assets/img/Screenshot_20210721_202520.png)
 
-**3.3 - Criar tabelas no banco de dados **
+# **3.4 - Criar tabelas no banco de dados **
 
 - Crie um arquivo chamado connect.py
 
@@ -260,7 +260,7 @@ em refresh. Conforme imagem abaixo é possível ver que as tableas foram criadas
 
 ![Screenshot_20210721_204057.png](https://github.com/lipegomes/tutorial-como-instalar-mariadb-no-docker-linux/blob/main/assets/img/Screenshot_20210721_204057.png)
 
-**4 - Considerações finais:**
+## **4 - Considerações finais:**
 
 O objetivo desse tutorial não é fazer um CRUD(Create, Update, Read, Delete), mas sim aprender a utilizar MariaDB com Docker.
 Se sinta a vontade para fazer um CRUD e criar seu próprio banco de dados.
