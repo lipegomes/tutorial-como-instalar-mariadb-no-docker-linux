@@ -8,7 +8,7 @@ Para instalação do docker em sua distribuição linux consulte a documentaçã
 
 https://docs.docker.com/engine/install/
 
-**1.1 - Criar container docker do MariaDB com a versão mais recente(latest):**
+**1.1 - Criar container docker do MariaDB com a versão com a versão mais recente(latest):**
 
 No link abaixo é possível obter informações sobre a imagem oficial do MariaDB no Docker Hub:
 
@@ -35,7 +35,7 @@ Ao utilizar o comando docker ps -a é possível obter o CONTAINER ID, copie e co
 docker start <CONTAINER ID>
 ```
 
-Ao color o ID do seu container docker o comando ficará assim:
+Ao colar o ID do seu container docker o comando ficará assim:
 
 ```bash
 docker start bd584ba4e34d
@@ -105,7 +105,7 @@ Requisitos:
 
 - Crie uma pasta com o nome desejado, abra o pasta criada no visual studio code e dentro dela crie o ambiente virtual conforme abaixo.
 
-- Necessário ter o virtualenv instalado, , para instalação acesse link abaixo:
+- Necessário ter o virtualenv instalado, para instalação acesse link abaixo:
 
   https://virtualenv.pypa.io/en/latest/installation.html
 
@@ -133,7 +133,7 @@ Requisitos:
   which python
   ```
 
-  Conforme imagem abaixo é possível verificar que o path do python realmente aponta para o ambiente virtual, caso
+  Conforme imagem abaixo é possível verificar que o path do python realmente aponta para o ambiente virtual, caso o 
   seu não aponte para a pasta do ambiente virtual, ative novamente o ambiente virtual.
 
   ![Screenshot_20210721_193824.png](https://github.com/lipegomes/tutorial-como-instalar-mariadb-no-docker-linux/blob/main/assets/img/Screenshot_20210721_193824.png)
@@ -248,7 +248,7 @@ except Error as e:
 
 ```
 
-- Agora digite os comando abaixo para as tabelas no banco de dados:
+- Agora digite os comando abaixo para criar as tabelas no banco de dados:
 
   ``` python
   python src/connect.py
@@ -261,7 +261,7 @@ em refresh. Conforme imagem abaixo é possível ver que as tableas foram criadas
 
 **4 - Considerações finais:**
 
-O objetivo desse tutorial não é fazer um CRUD(Create, Update, Read, Delete), mas sim aprender a utilizar MariaDB com Docker.
+O objetivo desse tutorial não é fazer um CRUD(Create, Read, Update, Delete), mas sim aprender a utilizar MariaDB com Docker.
 Se sinta a vontade para fazer um CRUD e criar seu próprio banco de dados.
 
 ###  Operational System:
