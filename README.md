@@ -1,6 +1,6 @@
 # **Tutorial de configuração para desenvolver com MariaDB no Linux utilizando docker**
 
-Este tutorial foi produzido por mim com intuito de ajudar as pessoas que estão iniciando no mundo de desenvolvimento a fim de aprender a configurar o bando de dados MariaDB em um container docker em um ambiente de desenvolvimento Linux.
+Este tutorial foi produzido por mim com intuito de ajudar as pessoas que estão iniciando no mundo de desenvolvimento a fim de aprender a configurar o banco de dados MariaDB em um container docker em um ambiente de desenvolvimento Linux.
 
 ## **1 - Instalação e Configuração do MariaDB no Linux**
 
@@ -100,7 +100,7 @@ https://dbeaver.io/download/
 
 Requisitos:
 
-- Necessário ter o python na versão 3.xx instalado em seu sistema, para instalação acesseo link abaixo:
+- Necessário ter o python na versão 3.xx instalado em seu sistema operacional, para instalação acesseo link abaixo:
 
   https://www.python.org/
 
@@ -178,7 +178,7 @@ except Error as e:
     print(e)
   ```
 
-- Agora digite os comando abaixo para acessar o MariaDB e criar um bando de dados:
+- Agora digite os comando abaixo para acessar o MariaDB e criar um banco de dados:
 
   ``` python
   python src/createdb.py
